@@ -2,9 +2,7 @@ import Colaborador from '../Colaborador'
 import hexToRgba from 'hex-to-rgba';
 import './Time.css'
 const Time = ({ time, colaboradores, mudarCor, aoDeletar, aoFavoritar}) => {
-
-    {console.log('Time => aoDeletar: ', aoDeletar, 'aoFavoritar: ', aoFavoritar)}
-
+    
     return (
 
         (colaboradores.length > 0) ? 
